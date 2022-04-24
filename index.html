@@ -19,34 +19,38 @@
       href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap"
       rel="stylesheet"
     />
-
+    <!-- main stylesheet -->
     <link rel="stylesheet" href="dist/css/main.css" />
+
+    <!-- javascript -->
+    <script src="javascript/sandbox.js" defer></script>
   </head>
   <body>
     <main>
-      <div class="card-rating-state">
-        <div class="card-top">
-          <div class="card-top-img">
-            <img src="images/icon-star.svg" alt="star icon" />
+      <div class="card">
+        <div class="card-rating-state">
+          <div class="card-top">
+            <div class="card-top-img">
+              <img src="images/icon-star.svg" alt="star icon" />
+            </div>
+            <h1>How did we do?</h1>
+            <p class="rating-request">
+              Please let us know how we did with your support request. All
+              feedback is appreciated to help us improve our offering!
+            </p>
           </div>
-          <h1>How did we do?</h1>
-          <p class="rating-request">
-            Please let us know how we did with your support request. All
-            feedback is appreciated to help us improve our offering!
-          </p>
-        </div>
-        <div class="card-bottom">
-          <div class="ratings">
-            <button class="rating-btn">1</button>
-            <button class="rating-btn">2</button>
-            <button class="rating-btn">3</button>
-            <button class="rating-btn">4</button>
-            <button class="rating-btn">5</button>
+          <div class="card-button">
+            <div class="ratings">
+              <button class="rating-btn">1</button>
+              <button class="rating-btn">2</button>
+              <button class="rating-btn active">3</button>
+              <button class="rating-btn">4</button>
+              <button class="rating-btn">5</button>
+            </div>
+            <button class="submit-btn">Submit</button>
           </div>
-          <button class="submit-btn">Submit</button>
         </div>
-
-        <div class="card-thank-you-state">
+        <div class="card-thank-you-state hide">
           <div class="top">
             <img
               src="images/illustration-thank-you.svg"
