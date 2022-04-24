@@ -32,10 +32,6 @@ main {
   padding: $paddingY $paddingX;
   border-radius: 0.6rem;
   margin-bottom: 1.6rem;
-
-  .hide {
-    display: none;
-  }
 }
 
 .card-top {
@@ -107,9 +103,6 @@ h1 {
   }
 }
 
-// .none {
-//   display: none;
-// }
 .card-thank-you-state {
   display: flex;
   flex-flow: column;
@@ -139,6 +132,3 @@ h1 {
   font-size: 11px;
   text-align: center;
 }
-// .attribution a {
-//   color: hsl(228, 45%, 44%);
-// }

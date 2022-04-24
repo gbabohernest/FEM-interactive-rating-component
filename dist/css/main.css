@@ -52,10 +52,6 @@ main {
   margin-bottom: 1.6rem;
 }
 
-.card .hide {
-  display: none;
-}
-
 .card-top {
   padding: 1.5rem 0 2rem;
   line-height: 1.5;
